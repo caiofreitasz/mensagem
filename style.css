@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111827;
+    color: white;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.caixa-principal {
+    background-color: #2563eb;
+    width: 80%;
+    max-width: 600px;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+
+.mensagem {
+    background-color: #1e3a8a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.botao {
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+
+    background-color: #60a5fa;
+    color: white;
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #93c5fd;
+}
